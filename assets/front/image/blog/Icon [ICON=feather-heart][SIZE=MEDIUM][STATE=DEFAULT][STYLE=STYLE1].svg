@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.926" height="24" viewBox="0 0 25.926 24">
+  <g id="Icon_ICON_feather_heart_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE1_" data-name="Icon [ICON=feather/heart][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]" transform="translate(0.557 0)">
+    <g id="Area_ICON:feather_heart_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_" data-name="Area [ICON:feather/heart][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.409 0)" fill="none" stroke="#fd49c6" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <g id="Icon" transform="translate(0.399 1.996)">
+      <path id="_1049b5c4-0553-4bbe-9e7a-9f42c9abf0bd" data-name="1049b5c4-0553-4bbe-9e7a-9f42c9abf0bd" d="M23.642,4.72a6.319,6.319,0,0,0-8.937,0L13.488,5.938,12.269,4.72a6.32,6.32,0,0,0-8.937,8.937l1.219,1.217,8.937,8.937,8.936-8.937,1.219-1.217A6.319,6.319,0,0,0,23.642,4.72Z" transform="translate(-1.482 -2.869)" fill="none" stroke="#be505f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.914"/>
+    </g>
+  </g>
+</svg>

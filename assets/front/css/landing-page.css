@@ -1,0 +1,585 @@
+
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --body-color: #393937;
+  --accent-color: #03e9f4;
+  --white-color: #fff;
+  --box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Montserrat", sans-serif;
+  --normal-font-size: 1rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+
+
+
+
+.button-animation {
+  position: relative;
+  display: inline-block;
+  padding: 20px 30px;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.button-animation span {
+  position: absolute;
+  display: block;
+}
+
+.button-animation span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent-color));
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+
+.button-animation span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, var(--accent-color));
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+
+.button-animation span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, var(--accent-color));
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+
+.button-animation span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, var(--accent-color));
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
+
+.button-animation:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+
+.myherobanner {
+  height: auto;
+  width: 100%;
+}
+
+.hero-container {
+  display: block;
+  margin: 0 auto;
+  background-image: url("/mwp/assets/images/DSC06624.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  height: 90vh;
+}
+
+.banner-title h2 {
+  padding: 16px;
+  background-color: #ed404c;
+  opacity: 0.9;
+  color: white;
+  width: 60%;
+  margin: 10% auto;
+  border-radius: 5px;
+}
+
+.decoration {
+  color: #ed404c;
+}
+
+.demo {
+  height: auto;
+  width: 75px;
+  padding: 10px 0;
+}
+
+.upload i {
+  color: white;
+  font-size: 35px;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 16% auto;
+}
+
+.video-box {
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0px 0px red, 0 1px 6px red;
+  color: white;
+  border: none;
+  background-color: #f05f69;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.btn-upload {
+  color: red;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.btn-upload:hover {
+  color: white;
+  background-color: red;
+  border: 1px solid;
+  transition: 0.3s ease-in-out;
+}
+
+.video-cards {
+  height: auto;
+  width: 325px;
+  margin: 10px auto;
+}
+
+.video-cards video {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.banner-title span {
+  color: red;
+}
+
+.banner-title p {
+  letter-spacing: 6px;
+  font-size: 20px !important;
+}
+
+.section-our-process h4 {
+  font-size: 2rem;
+}
+
+.hero-container p {
+  font-size: 1rem;
+}
+
+.banner-title h4 {
+  background-color: #ffffff8f;
+  padding: 10px;
+  font-size: 1.8rem;
+}
+
+.banner-title h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding: 120px 0;
+}
+
+.position {
+  margin-top: 7%;
+}
+
+.card {
+  position: relative;
+}
+
+.card i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-video {
+  position: relative;
+  padding: 0 10px;
+}
+
+.card-video i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  background-color: #ed404c;
+  padding: 10px;
+  border-radius: 36px;
+  color: white;
+  cursor: pointer;
+}
+
+.wedding-expert-content2 {
+  margin-top: -10%;
+}
+
+.process-title {
+  color: black;
+}
+
+.process-title:hover {
+  color: black;
+}
+
+
+
+
+.timeline {
+  position: relative;
+}
+
+.timeline-2 {
+  position: relative;
+  TOP: 50PX;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 92%;
+  left: 99%;
+  width: 67%;
+  height: 2px;
+  background-color: #EDEDED;
+  z-index: 99;
+}
+
+.timeline-step {
+  position: relative;
+  padding-top: 40px;
+  /* Adjust as needed */
+  z-index: 1;
+}
+
+.timeline-marker {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FCB41E;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.col-md-3 {
+  position: relative;
+
+}
+
+.mobile-landing-img {
+  height: auto;
+  width: 700px !important;
+  margin: -48px 0;
+  position: relative;
+  left: 65px;
+}
+
+/*.expert-row-desk{
+   display:block;   
+}*/
+
+.expert-row-mob {
+  display: none !important;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .banner-title h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 20px 0;
+  }
+
+  .banner-title h4 {
+    background-color: #ffffff8f;
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+
+  .hero-container {
+    height: 55vh;
+  }
+
+  .section-our-process h4 {
+    font-size: 1.5rem;
+  }
+
+  .expert-row-mob {
+    display: block !important;
+  }
+
+  .mobile-landing-img {
+    height: auto;
+    width: 500px !important;
+    position: relative;
+    left: 68px;
+  }
+
+  .expert-row-desk {
+    display: none !important;
+  }
+
+  .mobile-landing-img {
+    margin-left: -175px;
+    width: 750px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .video-cards {
+    height: auto;
+    width: 295px;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .video-cards {
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .timeline:before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .timeline:before {
+    display: none;
+  }
+
+  .expert-row-mob {
+    display: block !important;
+  }
+
+
+  .expert-row-desk {
+    display: none !important;
+  }
+
+  .mobile-landing-img {
+    margin-left: -175px;
+    width: 750px;
+  }
+
+  .mobile-landing-img {
+    height: auto;
+    width: 700px !important;
+    position: relative;
+    left: 60px;
+  }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .timeline:before {
+    display: none;
+  }
+
+  .npc {
+    margin: 0 15%;
+    padding: 35px 0 !important;
+  }
+
+  .mobile-landing-img {
+    height: auto;
+    width: 500px !important;
+    position: relative;
+    left: 68px;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .timeline:before {
+    display: none;
+  }
+
+  .expert-row-mob {
+    display: block !important;
+  }
+
+
+  .expert-row-desk {
+    display: none !important;
+  }
+
+  .mobile-landing-img {
+    margin-left: -175px;
+    width: 750px;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+
+  .wedding-expert-content2 {
+    margin-left: -40px;
+  }
+
+  .npc {
+    margin: 0 30px;
+    padding: 30px 0 !important;
+  }
+
+  .banner-title h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 20px 0;
+  }
+
+  .banner-title h4 {
+    background-color: #ffffff8f;
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+
+  .hero-container {
+    height: 55vh;
+  }
+
+  .section-our-process h4 {
+    font-size: 1.5rem;
+  }
+
+  .timeline:before {
+    display: none;
+  }
+
+  .expert-row-mob {
+    display: block !important;
+  }
+
+
+  .expert-row-desk {
+    display: none !important;
+  }
+
+  .mobile-landing-img {
+    margin-left: -175px;
+    width: 750px;
+  }
+
+  .mobile-landing-img {
+    height: auto;
+    width: 500px !important;
+    position: relative;
+    left: 68px;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+
+  .wedding-expert-content2 {
+    margin-left: -40px;
+  }
+
+  .banner-title h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 20px 0;
+  }
+
+  .banner-title h4 {
+    background-color: #ffffff8f;
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+
+  .hero-container {
+    height: 55vh;
+  }
+
+  .section-our-process h4 {
+    font-size: 1.5rem;
+  }
+
+  .timeline:before {
+    display: none;
+  }
+
+  .expert-row-mob {
+    display: block !important;
+  }
+
+
+  .expert-row-desk {
+    display: none !important;
+  }
+
+  .mobile-landing-img {
+    margin-left: -175px;
+    width: 500px !important;
+}
+}

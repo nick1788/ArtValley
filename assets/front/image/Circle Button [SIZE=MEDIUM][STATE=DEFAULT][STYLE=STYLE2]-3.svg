@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="70" viewBox="0 0 68 70">
+  <g id="Circle_Button_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE2_" data-name="Circle Button [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]" transform="translate(-0.173 0.187)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="68" height="70" rx="34" transform="translate(0.173 -0.187)" fill="#fff0f0"/>
+    <g id="Icon_ICON_custom_google_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE2_" data-name="Icon [ICON=custom/google][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]" transform="translate(19.81 20.705)">
+      <rect id="Area_ICON:custom_google_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [ICON:custom/google][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="28" height="29" transform="translate(0.363 0.108)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+      <g id="Icon" transform="translate(0 0)">
+        <path id="_3fec27f1-707a-447f-9618-243b99efb84e" data-name="3fec27f1-707a-447f-9618-243b99efb84e" d="M31.976,14.958H30.81V14.9H17.79v5.786h8.176a8.686,8.686,0,1,1-2.417-9.375L27.64,7.217a14.412,14.412,0,1,0,4.335,7.741Z" transform="translate(-3.352 -3.326)" fill="none" stroke="#fc3465" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+        <path id="d9f9e931-941a-4e64-960e-3b72ef0b240f" d="M5.255,11.092l4.769,3.5a8.692,8.692,0,0,1,13.853-3.245l4.107-4.1A14.49,14.49,0,0,0,5.255,11.1Z" transform="translate(-3.609 -3.334)" fill="none" stroke="#fc3465" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+        <path id="ad710942-39b8-432b-a164-ee657ddc5d3c" d="M18.085,34.952a14.448,14.448,0,0,0,9.734-3.77l-4.495-3.8a8.689,8.689,0,0,1-13.429-4L5.167,27.026A14.5,14.5,0,0,0,18.085,34.952Z" transform="translate(-3.594 -6.022)" fill="none" stroke="#fc3465" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+        <path id="aba96120-32bd-4ccc-bc29-5687e109b696" d="M34.235,16.726H33.066v-.059H20v5.807h8.205a8.746,8.746,0,0,1-2.967,4.043h0l4.493,3.8A14.047,14.047,0,0,0,34.515,19.57,14.561,14.561,0,0,0,34.235,16.726Z" transform="translate(-5.612 -5.157)" fill="none" stroke="#fc3465" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+      </g>
+    </g>
+  </g>
+</svg>

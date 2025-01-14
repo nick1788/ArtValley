@@ -1,0 +1,11 @@
+<svg id="Circle_Button_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE2_" data-name="Circle Button [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="48" height="48" rx="24" fill="#fff0f0"/>
+  <g id="Icon_ICON_feather_instagram_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE2_" data-name="Icon [ICON=feather/instagram][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]" transform="translate(14 14)">
+    <rect id="Area_ICON:feather_instagram_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [ICON:feather/instagram][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="20" height="20" fill="rgba(253,73,198,0.35)" opacity="0"/>
+    <g id="Icon" transform="translate(1.667 1.667)">
+      <rect id="_8cf18154-ce52-4eb1-a9b5-f1de37f4a881" data-name="8cf18154-ce52-4eb1-a9b5-f1de37f4a881" width="20" height="20" rx="5" transform="translate(-1.667 -1.666)" fill="none" stroke="#fc3465" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="_5c252835-58a4-43b1-ac56-eb3aaef1875c" data-name="5c252835-58a4-43b1-ac56-eb3aaef1875c" d="M16,11.37A4,4,0,1,1,12.63,8,4,4,0,0,1,16,11.37Z" transform="translate(-3.667 -3.666)" fill="none" stroke="#fc3465" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="a1242bd2-9046-4b50-9b37-19821252d6e7" x2="0.01" transform="translate(13.833 2.834)" fill="none" stroke="#fc3465" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

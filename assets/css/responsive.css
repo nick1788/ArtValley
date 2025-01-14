@@ -1,0 +1,148 @@
+@media only screen and (max-width: 600px) {
+	.about_me_content p {
+		margin-bottom: 15px;
+	}
+
+	.about_me_content {
+		padding-top: 90px;
+	}
+
+	#details {
+		width: 100%;
+		margin-top: 100px;
+		display: block;
+	}
+
+	.div-text {
+		width: 100%;
+	}
+
+	.img-details {
+		width: 100%;
+	}
+
+	.single_service {
+		padding: 25px;
+		margin: 0 0 30px 0px;
+	}
+	.section-padding {
+		padding: 30px 0;
+	}
+
+	.single_marketing_inner {
+		box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
+		margin: 0 20px;
+		margin-top: -47px;
+		padding: 16px;
+	}
+
+	.card-custom {
+		margin: 0;
+	}
+	.testimonial_content {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	.testimonial_content p {
+		overflow: hidden;
+		font-size: 16px;
+		line-height: 21px;
+		font-weight: 400;
+		color: #fff;
+	}
+
+	.owl-dots,
+	.owl-nav {
+		display: none;
+	}
+
+	.section-top {
+		padding-bottom: 100px;
+		position: relative;
+		height: 40vh;
+		background-size: cover;
+		background-position: bottom;
+		margin-top: 90px;
+	}
+
+	.promo_one {
+		margin-top: 0;
+	}
+
+	.promo_story h1 {
+		line-height: 40px;
+	}
+
+	.home_one {
+		padding: 11px 30px;
+	}
+
+	.price_ccard {
+		margin: 20px 0;
+	}
+
+	.proj_sec {
+		margin-top: 0;
+	}
+
+	.marketing-title h1 {
+		font-size: 32px;
+	}
+
+	.section-title h1 {
+		font-size: 34px;
+	}
+
+	.section-title p {
+		width: 100%;
+		margin: auto;
+	}
+
+	.contact input {
+		background: #f7f7f7;
+		border: 1px solid #f7f7f7;
+		border-radius: 0px;
+		box-shadow: none;
+		color: #232434;
+		font-size: 16px;
+		font-weight: 400;
+		height: 44px;
+		padding: 16px;
+		width: 100%;
+		margin-bottom: 15px;
+		border: 1px solid #052c40;
+		border-radius: 10px;
+	}
+
+	.contact textarea {
+		background: #f7f7f7;
+		border: 1px solid #f7f7f7;
+		border-radius: 0px;
+		box-shadow: none;
+		color: #232434;
+		font-size: 15px;
+		margin-bottom: 15px;
+		font-weight: 400;
+		padding: 16px;
+		width: 100%;
+		border: 1px solid #052c40;
+		border-radius: 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.home_bg {
+		height: 70%;
+		position: relative;
+		margin-top: 90px;
+	}
+
+	#details {
+		margin-top: 40px;
+	}
+
+	.div-text {
+		padding: 10px;
+	}
+}
