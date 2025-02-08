@@ -8,7 +8,8 @@ $this->load->view('art_view/Layout/header');
 
 
 <!-- START SECTION TOP -->
-<section id="section_home" class="section-top " style="background:url('assets/img/about-us-scaled.jpg') no-repeat; background-size: cover;   ">
+<section id="home"
+	style="background-image:url('assets/img/about-us-scaled.jpg'); height: 150vh; position: relative; margin-top: 90px; background-size:cover; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 offset-lg-2 col-sm-12 col-xs-12 text-center">
@@ -27,7 +28,7 @@ $this->load->view('art_view/Layout/header');
 <!-- START PROMO CONTENT -->
 <section class="promo_one section-padding ">
 	<div class="container">
-		<h2 class="text-center py-md-4">About us</h2>
+		<h1 class="text-center py-md-4">About us</h1>
 		<div class="row">
 			<div class="col-sm-6 col-md-6 col-xl-6">
 				<div class="promo_story">
@@ -38,7 +39,7 @@ $this->load->view('art_view/Layout/header');
 
 					</p>
 					<div class="promo_one_btn">
-						<a href="<?php echo base_url() ?>Contact" class="home_one">Learn More</a>
+						<a href="<?php echo base_url() ?>Contact" class="home_one">Connect Now</a>
 					</div>
 				</div>
 			</div><!-- END COL -->

@@ -6,8 +6,10 @@ $this->load->view('art_view/Layout/header');
 
 
 
-<!-- START SECTION TOP -->
-<section id="section_home" class="section-top" style="background-image: url(assets/img/contact-banner.jpeg);">
+<!-- START SECTION TOP 
+<section id="section_home" class="section-top" style="background-image: url(assets/img/contact-banner.jpeg);margin-top: 90px;">-->
+<section id="home"
+	style="background-image:url('assets/img/contact-banner.jpeg'); height: 100vh; position: relative; margin-top: 90px; background-size:cover; background-position: center center; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 offset-lg-2 col-sm-12 col-xs-12 text-center">
@@ -47,7 +49,7 @@ $this->load->view('art_view/Layout/header');
 								<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
 							</div>
 							<div class="form-group col-12">
-								<textarea rows="6" name="message" class="form-control" placeholder="Type your message that on your mind..." required="required"></textarea>
+								<textarea rows="6" name="message" class="form-control" placeholder="Type your message..." required="required"></textarea>
 							</div>
 							<div class="col-12 text-center">
 								<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-primary" title="Submit Your Message!">Send Message</button>

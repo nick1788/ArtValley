@@ -5,7 +5,7 @@
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="single_footer">
                     <h4 style="color: #08B65E;">ART VALLEY</h4>
-                    <p>Marketing agencies run paid advertising campaigns for themselves.</p>
+                    <!-- <p>Marketing agencies run paid advertising campaigns for themselves.</p> -->
                     <div class="info">
                         <div>
                             <h6 style="color: #08B65E;">SEND MESSAGE @</h6>
@@ -69,7 +69,7 @@
                         <i class="fa-brands fa-linkedin"  style="font-size: 30px; color: white;"></i>
                     </a>
                     <!-- WhatsApp -->
-                    <a href="https://wa.me/1234567890" target="_blank">
+                    <a href="https://wa.me/+917506188445" target="_blank">
                         <i class="fa-brands fa-whatsapp"  style="font-size: 30px; color: #08B65E;"></i>
                     </a>
                 </div>

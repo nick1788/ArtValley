@@ -27,8 +27,9 @@ $this->load->view('art_view/Layout/header');
 <!-- ider Add karna hai -->
 
 <?php if (!empty($project)) : ?>
-	<section class="marketing_content_area section-padding proj_sec">
+	<section class="marketing_content_area section-padding proj_sec" style="margin-top: 0px;">
 		<div class="container">
+			<h1 class="text-center py-md-4">Our Projects</h1>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="marketing-title text-center">

@@ -2341,6 +2341,14 @@ h4.section-title-white {
 * 15.START SECTION TOP DESIGN
 * ----------------------------------------------------------------------------------------
 */
+
+.about_bg {
+	height: 150vh;
+	position: relative;
+	margin-top: 90px;
+
+}
+
 .section-top {
 	padding-bottom: 100px;
 	position: relative;
@@ -2539,12 +2547,35 @@ Pricing Area Style
 }
 
 .div-text {
+	/* width: 50%; */
+	height: 100%;
+	/* border: 2px solid black; */
+	padding-left: 12px;
+	text-align: justify;
+	overflow: auto;
+}
+
+#email {
+	width: 97%;
+	height: auto;
+	display: flex;
+	margin: auto;
+	/* border: 2px solid black; 
+	margin-top: 128px;*/
+	justify-content: space-between;
+
+}
+.div-email {
 	width: 50%;
 	height: 100%;
 	/* border: 2px solid black; */
 	padding-left: 12px;
 	text-align: justify;
 	overflow: auto;
+}
+
+.div-email, .img-details{
+	width:100%;
 }
 
 #details:nth-child(2) {
@@ -2554,17 +2585,19 @@ Pricing Area Style
 	align-items: center;
 }
 
+
+
 .div-text li {
 
-	/* background-color: #0CBCE3; */
-	margin-bottom: 3%;
+	/* background-color: #0CBCE3; 
+	margin-bottom: 3%;*/
 	padding-left: 2%;
 	cursor: pointer;
 }
 
 .img-details {
-	width: 50%;
-	/* border: 2px solid black; */
+	/*width: 50%;
+	 border: 2px solid black; */
 	padding: 20px;
 	height: 100%;
 }
@@ -2750,6 +2783,24 @@ sup {
 	left: 0px;
 }
 
+.nan-btns1 {
+	outline: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+	padding: 15px 32px;
+	background-color: #00D6E6;
+	border: none;
+	color: var(--whiteColor);
+	transition: all .5s;
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+}
+
 .navbar-toggler {
     padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
     font-size: var(--bs-navbar-toggler-font-size);
@@ -2761,10 +2812,19 @@ sup {
     transition: var(--bs-navbar-toggler-transition);
 }
 
-.explore-service li {
-    list-style: auto;
+
+
+.explore-service {
+    text-align:justify;
+	overflow:auto;
+	padding:10px;
 }
 
+.explore-service li {
+    list-style: lower-roman;
+	margin-left: 15px;
+	padding-right:15px;
+}
 .testimonial_content p span{
 	text-transform: uppercase;
 }

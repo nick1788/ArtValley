@@ -23,7 +23,7 @@ $this->load->view('art_view/Layout/header');
 				</div>
 
 				<div class="home_btn">
-					<a href="<?php echo base_url() ?>Contact" class="home_one">Get started</a>
+					<a href="<?php echo base_url() ?>Contact" class="home_one nan-btns1">Get started</a>
 				</div>
 			</div><!-- END COL-->
 		</div><!--- END ROW -->
@@ -34,42 +34,48 @@ $this->load->view('art_view/Layout/header');
 
 <!-- details -->
 <div id="details" data-aos="fade-down">
-    <ul class="div-text">
-        <div class="main" style="margin-bottom: 20px;">
-            <h2 style="font-weight: bolder;">Save Your Time and Money with Our Executive Assistant Service</h2>
-            <p style="padding: 20px;">
-                Outsourcing an executive assistant offers various benefits and advantages to your business. 
-                Here are some reasons why admin outsourcing might be the best decision for your business.
-            </p>
-        </div>
-        <li>
-            <span style="font-weight: 900;">
-                Experience and Expertise
-            </span>
-            <p style="padding-left: 20px;">
-                An outsourced executive assistant is a highly trained and skilled professional. They have experience 
-                handling a variety of tasks and possess the expertise needed to support executives and business owners effectively. 
-                By outsourcing, you gain access to a larger pool of talent, allowing you to work with top-performing 
-                executive assistants who can add value to your business.
-            </p>
-        </li>
-        <li>
-            <span style="font-weight: 900;">
-                Time-Saving
-            </span>
-            <p style="padding-left: 20px;">
-                By outsourcing administrative tasks, you free up your schedule to focus on high-value activities 
-                that grow your business. An executive assistant can handle tasks such as email management, scheduling, 
-                research, and travel arrangements, allowing you to concentrate on key areas of your company.
-            </p>
-        </li>
-    </ul>
-    <div class="img-details">
-        <img src="<?php echo base_url('assets/img/assistant-img.jpg') ?>" width="40px" style="border-radius: 12px;" alt="Assistant Image">
-    </div>
+	
+	<div class="row">
+		<div class="col-lg-6 col-sm-12 col-xs-12">
+			<ul class="div-text">
+				<div class="main" style="/*margin-bottom: 20px;*/">
+					<h2 style="font-weight: bolder;padding: 10px;">Save Your Time and Money with Our Executive Assistant Service</h2>
+					<p style="padding: 5px;">
+					Outsourcing an executive assistant offers various benefits and advantages to your business. 
+					Here are some reasons why admin outsourcing might be the best decision for your business.
+					</p>
+				</div>
+				<li>
+					<span style="font-weight: 900;">
+					Experience and Expertise
+					</span>
+					<p style="padding-left: 20px;padding-right:20px;">
+					An outsourced executive assistant is a highly trained and skilled professional. They have experience 
+					handling a variety of tasks and possess the expertise needed to support executives and business owners effectively. 
+					By outsourcing, you gain access to a larger pool of talent, allowing you to work with top-performing 
+					executive assistants who can add value to your business.
+					</p>
+				</li>
+				<li>
+					<span style="font-weight: 900;">
+					Time-Saving
+					</span>
+					<p style="padding-left: 20px;padding-right:20px;">
+					By outsourcing administrative tasks, you free up your schedule to focus on high-value activities 
+					that grow your business. An executive assistant can handle tasks such as email management, scheduling, 
+					research, and travel arrangements, allowing you to concentrate on key areas of your company.
+					</p>
+				</li>
+			</ul>
+		</div>
+		<div class="col-lg-6 col-sm-12 col-xs-12">
+			<div class="img-details" style="margin-top:-20px;">
+				<img src="<?php echo base_url('assets/img/assistant-img.jpg') ?>" style="border-radius: 12px;" alt="Assistant Image">
+			</div>
+		</div>
+		</div>
+	
 </div>
-
-
 
 <!--START SERVICE -->
 <div id="service" class="best-service section-padding" data-aos="fade-down">
@@ -120,42 +126,46 @@ $this->load->view('art_view/Layout/header');
 <!--END SERVICE -->
 
 
-<!-- START Email suppport-->
-<section data-aos="fade-down" class="customer_success_area section-padding">
-	<div class="container">
+<!-- START Email suppport
+<section data-aos="fade-down" class="customer_success_area" >-->
+<div id="email" data-aos="fade-down" class="customer_success_area">
+	<div  style="margin-left: 0px; margin-right: 0px;">
 		<div class="row">
-			<div class="col-lg-6 col-sm-12 col-xs-12">
-				<div class="single_success">
-					<h1>
+			<div class="col-lg-6 col-sm-12 col-xs-12" style="height:100%;">
+				<div class="div-email" style="margin-top:-20px;margin-left:20px;padding-right: 12px;margin-right: 20px;"> 
+					<div class="single_success">
+						<h1>
 						Explore our email Support Services</h1>
-					<p>
-						Outsourcing email support services today meets the needs and expectations of your customers.
-						Pure Moderation offers the following benefits:
-					</p>
-					<ul class="explore-service">
-						<li>Faster Email Response Times</li>
-						<li>Increased Customer Satisfaction Levels</li>
-						<li>Enhanced Reliability: Strengthen your customer support services with our high-quality email
+						<p style="padding-right:15px;">
+						Outsourcing email support services today meets the needs and expectations 
+						of your customers. Pure Moderation offers the following benefits:
+						</p>
+						<ul class="explore-service">
+							<li>Faster Email Response Times</li>
+							<li>Increased Customer Satisfaction Levels</li>
+							<li>Enhanced Reliability: Strengthen your customer support services with our high-quality email
 							support team.</li>
-						<li>Elimination of Email Backlogs: Enjoy quick turnaround times, ultimately boosting your
+							<li>Elimination of Email Backlogs: Enjoy quick turnaround times, ultimately boosting your
 							customer retention rates.</li>
 
-					</ul>
+						</ul>
+					</div>
 				</div>
-			</div><!-- END COL-->
+			</div>
 			<div class="col-lg-6 col-sm-12 col-xs-12">
-				<div class="single_success_img">
-					<img src="<?php echo base_url('assets/img/Shorlisted.jpeg') ?>" class="img-fluid" alt="" />
+				<div class="img-details">
+					<img src="<?php echo base_url('assets/img/Shorlisted.jpeg') ?>" style="border-radius: 12px;" alt="" />
 				</div>
 			</div><!-- END COL-->
-		</div><!--- END ROW -->
+		</div><!--</div>- END ROW -->
 	</div><!--- END CONTAINER -->
-</section>
-<!-- END  Email support -->
+</div>
+<!--</section>
+ END  Email support -->
 
 
 <!-- PROJECTS START -->
-<section data-aos="fade-down" class="marketing_content_area section-padding">
+<section data-aos="fade-down" class="marketing_content_area section-padding" style="padding-top: 0px;" >
 	<?php if (!empty($project)): ?>
 		<section class="marketing_content_area section-padding">
 			<div class="container">
